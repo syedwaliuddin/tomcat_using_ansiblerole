@@ -1,0 +1,6 @@
+---
+- name: installing tomcat role
+  hosts: group
+  roles:
+    - tomcat
+  become: true
